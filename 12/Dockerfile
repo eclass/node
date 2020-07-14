@@ -14,7 +14,8 @@ RUN apk add --no-cache \
   openssh-client=8.3_p1-r0 \
   py3-pip=20.1.1-r0 \
   python2=2.7.18-r0 && \
-  npm i --unsafe-perm -g full-icu@1.3.1 && \
+  npm i --unsafe-perm -g full-icu@1.3.1 now@19.1.2 && \
+  npm i -g apollo@2.30.0 netlify-cli@2.37.0 surge@0.21.6 && \
   pip3 install awscli==1.18.97
 
 ENV NODE_ICU_DATA=/usr/local/lib/node_modules/full-icu
