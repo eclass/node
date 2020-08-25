@@ -7,7 +7,7 @@ LABEL maintainer "Leonardo Gatica <lgatica@protonmail.com>"
 RUN apk add --no-cache \
   build-base=0.5-r2 \
   curl=7.69.1-r0 \
-  docker=19.03.11-r0 \
+  docker=19.03.12-r0 \
   git=2.26.2-r0 \
   jq=1.6-r1 \
   mysql-client=10.4.13-r0 \
