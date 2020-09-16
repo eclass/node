@@ -6,7 +6,7 @@ LABEL maintainer "Leonardo Gatica <lgatica@protonmail.com>"
 # hadolint ignore=SC2034
 RUN apk add --no-cache \
   build-base=0.5-r2 \
-  curl=7.69.1-r0 \
+  curl=7.69.1-r1 \
   docker=19.03.12-r0 \
   git=2.26.2-r0 \
   jq=1.6-r1 \
